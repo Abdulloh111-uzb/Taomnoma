@@ -1,0 +1,12 @@
+
+print("Kitoblar haqidagi so'rov dastur.")
+savol = "Sevimli kitobingizni kiriting,"
+savol2 = "(dasturni to`xtatish uchun 'stop' ni bosing)"
+print(savol2)
+qiymat = ''
+while qiymat != 'stop':
+    qiymat = input(savol)
+    if qiymat != 'exit':
+        print("Ajoyib kitob")
+print("Dasturdan chiqib ketdingiz.")
+
