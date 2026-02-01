@@ -1,0 +1,9 @@
+print("Kiritilgan sonning kvadratini topuvchi dastur.")
+savol = "Istalgan sonni kiriting,"
+savol += "(dasturni to`xtatish uchun 'exit' ni bosing)"
+qiymat = ''
+while qiymat != 'exit':
+    qiymat = input(savol)
+    if qiymat != 'exit':
+        print(f"{qiymat} ning kvadrati {float(qiymat) ** 2} ga teng")
+print("Dasturdan chiqib ketdingiz.")
